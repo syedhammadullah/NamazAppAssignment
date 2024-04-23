@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:wght@900&display=swap");
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("pexels-bilalfurkankosar-11119759.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #97904a;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #292502;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+input[type="text"] {
+  width: calc(100% - 22px); /* Subtracting padding and border width */
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  color: black;
+  background-color: #565831;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+button:hover {
+  background-color: #ccaf71;
+}
+
+#namazTimings {
+  margin-top: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+p {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
